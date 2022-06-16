@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Question 1</h1>
+                <p>Search for and count all earthquakes that occurred with a magnitude greater  
+                    than 5.0 </p>
+                <form action="/q1" method="POST">
+                    <input type="text" name="mag" value="5.0" placeholder="Enter a magnitude">
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Question 2</h1>
+                <form action="/q2" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control w-25" id="search" name="mag1" placeholder="Enter magnitude">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control w-25 " id="search" name="mag2" placeholder="Enter magnitude">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Question 3</h1>
+                <form action="/q3" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="search" name="latitude" placeholder="Latitude">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="search" name="longitude" placeholder="Longitude">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="search" name="distance" placeholder="distance">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Question 5</h1>
+                <h3>Do large (>4.0 mag) occur more often at night?</h3>
+                <a href="/q5" class="btn btn-primary">Results</a>
+            </div>
+                
