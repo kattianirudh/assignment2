@@ -1,6 +1,5 @@
 from ast import keyword
 import math
-from colorama import Cursor
 from flask import Flask, render_template, request, jsonify
 # from flask_cors import CORS
 # from flask_sqlalchemy import SQLAlchemy
